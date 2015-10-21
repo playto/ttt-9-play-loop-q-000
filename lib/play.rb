@@ -38,3 +38,14 @@ def play(board)
     counter += 1
   end
 end
+
+def turn_count(board)
+  board.each do |position|
+    counter = 0
+    if position == "X" || position == "O" || position == "x" || position == "o"
+      counter += 1
+    else
+    end
+  end
+    return counter
+end
